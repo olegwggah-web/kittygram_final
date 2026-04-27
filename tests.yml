@@ -1,4 +1,5 @@
-repo_owner: ваш_логин_на_гитхабе
-kittygram_domain: https://доменное_имя_kittygram
-taski_domain: https://доменное_имя_taski
-dockerhub_username: ваш_логин_на_докерхабе
+repo_owner: olegwggah-web
+kittygram_domain: https://127.0.0.1
+taski_domain: https://127.0.0.1
+dockerhub_username: olegwggah
+

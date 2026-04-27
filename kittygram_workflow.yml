@@ -46,8 +46,17 @@ jobs:
         DEBUG: True
         ALLOWED_HOSTS: localhost,127.0.0.1
         POSTGRES_DB: test_db
+        DB_NAME: test_db
         POSTGRES_USER: test_user
         POSTGRES_PASSWORD: test_password
+        DB_HOST: localhost
+        DB_PORT: 5432
+
+    - name: Test frontend
+      run: |
+        cd frontend
+        npm ci
+        npm test -- --coverage --watchAll=false
         DB_HOST: localhost
         DB_PORT: 5432
 
